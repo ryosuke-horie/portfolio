@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button, Card } from '@material-ui/core';
+import { Button, Card, Box } from '@material-ui/core';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
-import MainTable from '../components/MainTable';
+import { withRouter } from 'react-router-dom';
 
 //スタイルの定義
 const useStyles = makeStyles((theme) => createStyles({
@@ -9,45 +9,33 @@ const useStyles = makeStyles((theme) => createStyles({
         margin: theme.spacing(5),
         padding: theme.spacing(3),
     },
+
 }));
-
-
-//ヘッダーのコンテンツ用の配列定義
-const headerList = ['名前', 'タスク内容', '編集', '完了'];
-
-let rows = [
-    {
-        name: "モーリー",
-        content: "肩トレ",
-        editBtn: <Button color="secondary" variant="contained">編集</Button>,
-        deleteBtn: <Button color="primary" variant="contained">完了</Button>,
-    },
-    {
-        name: "ドンキーコング",
-        content: "バナナ補給",
-        editBtn: <Button color="secondary" variant="contained">編集</Button>,
-        deleteBtn: <Button color="primary" variant="contained">完了</Button>,
-    },
-];
 
 function Home() {
     //定義したスタイルを利用するための設定
     const classes = useStyles();
 
     return (
-        <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-md-10">
-                    <div className="card">
-                        <h1>タスク管理</h1>
-                        <Card className={classes.card}>
-                            {/* テーブル部分の定義 */}
-                            <MainTable headerList={headerList} rows={rows} />
-                        </Card>
-                    </div>
-                </div>
-            </div>
+        <div class="container">
+            <Box component="span" sx={{ p: 2, border: '1px dashed grey' }}>
+                <Button>Save</Button>
+            </Box>
+
+            <Box
+                sx={{
+                    width: 300,
+                    height: 300,
+                    backgroundColor: 'primary.dark',
+                    '&:hover': {
+                        backgroundColor: 'primary.main',
+                        opacity: [0.9, 0.8, 0.7],
+                    },
+                }}
+            />
         </div>
+
+
     );
 }
 
