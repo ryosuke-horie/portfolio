@@ -18095,27 +18095,31 @@ function Home() {
       spacing: 2,
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_5__["default"], {
         item: true,
-        xs: 8,
+        xs: 12,
+        md: 6,
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(Item, {
-          children: "xs=8"
+          children: "xs=6"
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_5__["default"], {
         item: true,
-        xs: 4,
+        xs: 12,
+        md: 6,
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(Item, {
-          children: "xs=4"
+          children: "xs=6"
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_5__["default"], {
         item: true,
-        xs: 4,
+        xs: 6,
+        md: 12,
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(Item, {
-          children: "xs=4"
+          children: "xs=6"
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_5__["default"], {
         item: true,
-        xs: 8,
+        xs: 6,
+        md: 12,
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(Item, {
-          children: "xs=8"
+          children: "xs=6"
         })
       })]
     })
