@@ -1,52 +1,43 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-
-// import { makeStyles, createStyles } from '@material-ui/core/styles';
-
-import { styled } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Grid';
-
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: 'center',
-  color: theme.palette.text.secondary,
-}));
-
-// //スタイルの定義
-// const useStyles = makeStyles((theme) => createStyles({
-//     card: {
-//         margin: theme.spacing(5),
-//         padding: theme.spacing(3),
-//     },
-
-// }));
+// import { styled } from '@mui/material/styles';
+import { Card, CardHeader, Avatar } from "@material-ui/core";
+import Grid from "@material-ui/core/Grid";
 
 function Home() {
-    //定義したスタイルを利用するための設定
-    // const classes = useStyles();
-
-    return (
-        <Box sx={{ flexGrow: 1 }}>
-          <Grid container spacing={2}>
-            <Grid item xs={12} md={6}>
-              <Item>xs=6</Item>
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <Item>xs=6</Item>
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <Item>xs=6</Item>
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <Item>xs=6</Item>
-            </Grid>
-          </Grid>
-        </Box>
-      );
+  return (
+    <div>
+      <Grid container spacing={3}>
+        <Grid item xs={12}>
+          <Card>
+            <CardHeader
+              avatar={<Avatar>P</Avatar>}
+              title="Profile"
+              subheader="プロフィール"
+            />
+          </Card>
+        </Grid>
+        <Grid item xs={6}>
+          <Card>xs=6</Card>
+        </Grid>
+        <Grid item xs={6}>
+          <Card>xs=6</Card>
+        </Grid>
+        <Grid item xs={3}>
+          <Card>xs=3</Card>
+        </Grid>
+        <Grid item xs={3}>
+          <Card>xs=3</Card>
+        </Grid>
+        <Grid item xs={3}>
+          <Card>xs=3</Card>
+        </Grid>
+        <Grid item xs={3}>
+          <Card>xs=3</Card>
+        </Grid>
+      </Grid>
+    </div>
+  );
 }
 
 export default Home;

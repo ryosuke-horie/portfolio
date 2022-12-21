@@ -18,10 +18,9 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    {{-- <link href="{{ asset('css/home.css') }}" rel="stylesheet"> --}}
 </head>
 <body>
-    <div id="app">
+    <div id="app" style="padding-top: 30px">
 
     </div>
 </body>
