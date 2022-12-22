@@ -1,8 +1,8 @@
 import React from 'react';
-import { Card, CardHeader, Avatar } from "@material-ui/core";
-import Grid from "@material-ui/core/Grid";
+import { Grid, Card, CardHeader, Avatar } from "@material-ui/core";
 
-function Profile() {
+{/* プロフィール */}
+const Profile = () => {
     return (
         <Grid item xs={12}>
           <Card>

@@ -1,9 +1,8 @@
 import React from 'react';
-import { Card, CardHeader, CardContent, CardActionArea } from "@material-ui/core";
-import Grid from "@material-ui/core/Grid";
-import Typography from '@mui/material/Typography';
+import { Card, CardHeader, CardContent, CardActionArea, Grid, Typography  } from "@material-ui/core";
 
-function Output() {
+{/* 個人開発アプリ */}
+const Output = () => {
   return (
     <CardActionArea href="https://martial-genryo.space" target="_brank">
       <Grid item xs={12}>

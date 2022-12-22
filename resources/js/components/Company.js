@@ -1,9 +1,8 @@
 import React from 'react';
-import { Card, CardHeader, CardContent } from "@material-ui/core";
-import Grid from "@material-ui/core/Grid";
-import Typography from '@mui/material/Typography';
+import { Card, CardHeader, CardContent, Grid , Typography } from "@material-ui/core";
 
-function Company(props) {
+{/* 業務経歴 */}
+const Company = (props) => {
     // 親コンポーネントからpropsで受け取る
     const { Rows } = props;
 
