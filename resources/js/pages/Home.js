@@ -5,6 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import Typography from '@mui/material/Typography';
 import Profile from '../components/Profile';
 import Company from '../components/Company';
+import Output  from '../components/Output';
 
 const career = [
   {
@@ -30,21 +31,7 @@ function Home() {
         <Company Rows={career} />
 
         {/* 個人開発アプリ */}
-        <Grid item xs={12}>
-          <Card>
-            <CardHeader
-              title="個人開発"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                格闘技向け減量管理アプリ
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                開発中
-              </Typography>
-            </CardContent>
-          </Card>
-        </Grid>
+        <Output />
       </Grid>
     </div>
   );
