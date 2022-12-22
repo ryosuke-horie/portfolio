@@ -10,13 +10,13 @@ const Languages = () => {
             title="使用経験のある言語"
           />
           <CardContent>
-            <Typography gutterBottom variant="h7" component="div">
+            <Typography gutterBottom variant="h6" component="div">
               使用経験のある言語
             </Typography>
             <Typography variant="body2" color="text.secondary">
               PHP/Laravel/CakePHP/Zendframework/mojavi/Smarty | JavaScript/React.js/JQuery/GoogleAppsScript | Python
             </Typography>
-            <Typography gutterBottom variant="h7" component="div">
+            <Typography gutterBottom variant="h6" component="div">
               その他使用経験のあるもの
             </Typography>
             <Typography variant="body2" color="text.secondary">
