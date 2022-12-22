@@ -1,55 +1,35 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-// import { styled } from '@mui/material/styles';
-import { Card, CardHeader, CardContent, Avatar } from "@material-ui/core";
+import { Card, CardHeader, CardContent} from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 import Typography from '@mui/material/Typography';
+import Profile from '../components/Profile';
+import Company from '../components/Company';
 
+const career = [
+  {
+    key    : "1",
+    company: "株式会社いえらぶGROUP",
+    content: "不動産会社向けSaaSサービスの開発に従事。主にPHP/Zendframeworkを使用して月間売上１億円超えのサービスの開発を行っていました。",
+  },
+  {
+    key    : "2",
+    company: "マミヤITソリューションズ株式会社",
+    content: "グループ会社の業務改善ツールの開発をメインに担当。主にPHP/Laravelを使用して開発。",
+  },
+];
 
 function Home() {
   return (
     <div>
       <Grid container spacing={3}>
-        <Grid item xs={12}>
-          <Card>
-            <CardHeader
-              avatar={<Avatar>P</Avatar>}
-              title="堀江 遼佑"
-              subheader="バックエンドエンジニア"
-            />
-          </Card>
-        </Grid>
-        <Grid item xs={6}>
-          <Card>
-            <CardHeader
-              title="業務経歴1"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                株式会社いえらぶGROUP
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                不動産会社向けSaaSサービス「いえらぶ」の開発。
-                上記サービスと連携した集客用HPサービスの開発。
-              </Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={6}>
-        <Card>
-            <CardHeader
-              title="業務経歴2"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                マミヤITソリューション株式会社
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                受託開発に従事  
-              </Typography>
-            </CardContent>
-          </Card>
-        </Grid>
+        {/* プロフィール */}
+        <Profile />
+
+        {/* 業務経歴 */}
+        <Company Rows={career} />
+
+        {/* 個人開発アプリ */}
         <Grid item xs={12}>
           <Card>
             <CardHeader
