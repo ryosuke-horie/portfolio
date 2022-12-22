@@ -1,8 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import { Card, CardHeader, CardContent} from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
-import Typography from '@mui/material/Typography';
 import Profile from '../components/Profile';
 import Company from '../components/Company';
 import Output  from '../components/Output';
