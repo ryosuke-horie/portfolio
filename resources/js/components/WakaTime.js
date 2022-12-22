@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardHeader, CardContent, Grid, Avatar } from "@material-ui/core";
 
-{/* 個人開発アプリ */}
+{/* WakaTime API */}
 const WakaTime = () => {
   return (
       <Grid item xs={12}>

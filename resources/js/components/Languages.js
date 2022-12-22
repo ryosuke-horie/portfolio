@@ -17,7 +17,7 @@ const Languages = () => {
               PHP/Laravel/CakePHP/Zendframework/mojavi/Smarty | JavaScript/React.js/JQuery/GoogleAppsScript | Python
             </Typography>
             <Typography gutterBottom variant="h6" component="div">
-              その他使用経験のあるもの
+              その他使用経験のツール
             </Typography>
             <Typography variant="body2" color="text.secondary">
               Mysql/Postgresql | AWS/Xserver | Slack | VsCode/PHPStorm | Backlog/Redmine | Github/Gitlab | Trello/Taskade/Notion ...

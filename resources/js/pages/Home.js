@@ -5,7 +5,7 @@ import Profile from '../components/Profile';       {/* プロフィール */}
 import Company from '../components/Company';       {/* 業務経歴 */}
 import Output  from '../components/Output';        {/* 個人開発アプリ */}
 import Languages  from '../components/Languages';  {/* プログラミング言語 */}
-import WakaTime  from '../components/WakaTime';    {/* プログラミング言語 */}
+import WakaTime  from '../components/WakaTime';    {/* WakaTime API */}
 
 
 function Home() {
