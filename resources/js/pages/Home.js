@@ -1,34 +1,16 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import Grid from "@material-ui/core/Grid";
-import Profile from '../components/Profile';
-import Company from '../components/Company';
-import Output  from '../components/Output';
-
-const career = [
-  {
-    key    : "1",
-    company: "株式会社いえらぶGROUP",
-    content: "不動産会社向けSaaSサービスの開発に従事。主にPHP/Zendframeworkを使用して月間売上１億円超えのサービスの開発を行っていました。",
-  },
-  {
-    key    : "2",
-    company: "マミヤITソリューションズ株式会社",
-    content: "グループ会社の業務改善ツールの開発をメインに担当。主にPHP/Laravelを使用して開発。",
-  },
-];
+import Profile from '../components/Profile'; {/* プロフィール */}
+import Company from '../components/Company'; {/* 業務経歴 */}
+import Output  from '../components/Output';  {/* 個人開発アプリ */}
 
 function Home() {
   return (
     <div>
       <Grid container spacing={3}>
-        {/* プロフィール */}
         <Profile />
-
-        {/* 業務経歴 */}
-        <Company Rows={career} />
-
-        {/* 個人開発アプリ */}
+        <Company />
         <Output />
       </Grid>
     </div>

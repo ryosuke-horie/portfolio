@@ -12152,10 +12152,17 @@ __webpack_require__.r(__webpack_exports__);
 
 {/* 業務経歴 */}
 var Company = function Company(props) {
-  // 親コンポーネントからpropsで受け取る
-  var Rows = props.Rows;
+  var career = [{
+    key: "1",
+    company: "株式会社いえらぶGROUP",
+    content: "不動産会社向けSaaSサービスの開発に従事。主にPHP/Zendframeworkを使用して月間売上１億円超えのサービスの開発を行っていました。"
+  }, {
+    key: "2",
+    company: "マミヤITソリューションズ株式会社",
+    content: "グループ会社の業務改善ツールの開発をメインに担当。主にPHP/Laravelを使用して開発。"
+  }];
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-    children: Rows.map(function (row, index) {
+    children: career.map(function (row, index) {
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
         item: true,
         xs: 6,
@@ -12348,29 +12355,19 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+{/* プロフィール */}
+
+{/* 業務経歴 */}
 
 
 
-
-
-
-var career = [{
-  key: "1",
-  company: "株式会社いえらぶGROUP",
-  content: "不動産会社向けSaaSサービスの開発に従事。主にPHP/Zendframeworkを使用して月間売上１億円超えのサービスの開発を行っていました。"
-}, {
-  key: "2",
-  company: "マミヤITソリューションズ株式会社",
-  content: "グループ会社の業務改善ツールの開発をメインに担当。主にPHP/Laravelを使用して開発。"
-}];
+{/* 個人開発アプリ */}
 function Home() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_5__["default"], {
       container: true,
       spacing: 3,
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Profile__WEBPACK_IMPORTED_MODULE_1__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Company__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        Rows: career
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Output__WEBPACK_IMPORTED_MODULE_3__["default"], {})]
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Profile__WEBPACK_IMPORTED_MODULE_1__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Company__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Output__WEBPACK_IMPORTED_MODULE_3__["default"], {})]
     })
   });
 }
