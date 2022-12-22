@@ -5,16 +5,15 @@ import {
     Route,
     Switch,
   } from 'react-router-dom';
-import Example from './pages/Example';
+import Ielove from './pages/Ielove';
 import Home from './pages/Home';
 
   function App() {
     return (
         <div>
             <Switch>
-                {/* この中にルーティングを書くことになる */}
                 <Route path='/' exact component={Home} />
-                <Route path='/example' exact component={Example} />
+                <Route path='/ielove' exact component={Ielove} />
             </Switch>
         </div>
     );
