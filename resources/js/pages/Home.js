@@ -1,9 +1,10 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import Grid from "@material-ui/core/Grid";
-import Profile from '../components/Profile'; {/* プロフィール */}
-import Company from '../components/Company'; {/* 業務経歴 */}
-import Output  from '../components/Output';  {/* 個人開発アプリ */}
+import Profile from '../components/Profile';       {/* プロフィール */}
+import Company from '../components/Company';       {/* 業務経歴 */}
+import Output  from '../components/Output';        {/* 個人開発アプリ */}
+import Languages  from '../components/Languages';  {/* プログラミング言語 */}
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
         <Profile />
         <Company />
         <Output />
+        <Languages />
       </Grid>
     </div>
   );
