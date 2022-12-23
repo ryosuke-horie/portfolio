@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Card, CardHeader, CardContent, Grid, Typography } from "@material-ui/core";
 import Header from '../components/Header'; {/* ヘッダー */}
 
-function Ielove() {
+function Mamiya() {
     return (
         <Grid container spacing={3}>
             <Header />
@@ -32,4 +32,4 @@ function Ielove() {
     );
 }
 
-export default Ielove;
+export default Mamiya;

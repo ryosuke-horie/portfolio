@@ -12124,6 +12124,71 @@ function Ielove() {
 
 /***/ }),
 
+/***/ "./resources/js/pages/Mamiya.js":
+/*!**************************************!*\
+  !*** ./resources/js/pages/Mamiya.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/Grid/Grid.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/Card/Card.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/CardHeader/CardHeader.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/CardContent/CardContent.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/Typography/Typography.js");
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Header */ "./resources/js/components/Header.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+
+
+{/* ヘッダー */}
+function Mamiya() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    container: true,
+    spacing: 3,
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      item: true,
+      xs: 12,
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_6__["default"], {
+          title: "\u4E0D\u52D5\u7523\u4EF2\u4ECB\u4F1A\u793E\u5411\u3051\u696D\u52D9\u652F\u63F4SaaS\u300C\u3044\u3048\u3089\u3076\u300D\u306E\u4FDD\u5B88\u30FB\u904B\u7528"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_8__["default"], {
+            gutterBottom: true,
+            variant: "body2",
+            color: "text.secondary",
+            children: "\u671F\u9593\uFF1A2020/12 ~ 2021/7"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_8__["default"], {
+            variant: "body2",
+            color: "text.secondary",
+            children: "AWS | PHP/ZendFrameWork | Javascript/JQuery | SQL/Mysql | css"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_8__["default"], {
+            variant: "body2",
+            color: "text.secondary",
+            children: "\u696D\u52D9\u5185\u5BB9\uFF1A\u4FDD\u5B88\u30FB\u904B\u7528\u696D\u52D9\u306B\u5F93\u4E8B\u3002\u5831\u544A\u3055\u308C\u3066\u3044\u308B\u30D0\u30B0\u306E\u4FEE\u6B63\u5BFE\u5FDC\u304C\u30E1\u30A4\u30F3\u3067\u3057\u305F\u3002\u307E\u305F\u3001\u65B0\u898F\u6A5F\u80FD\u306E\u5B9F\u88C5\u306B\u3082\u5BFE\u5FDC\u3057\u3066\u3044\u307E\u3057\u305F\u3002"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_8__["default"], {
+            variant: "body2",
+            color: "text.secondary",
+            children: "\u672A\u7D4C\u9A13\u3060\u3063\u305F\u3053\u3068\u3082\u3042\u308A\u3001\u3053\u306E\u6642\u671F\u306F\u7C21\u5358\u306A\u30D0\u30B0\u306E\u4FEE\u6B63\u5BFE\u5FDC\u304C\u30E1\u30A4\u30F3\u3067\u3057\u305F\u3002\u53C2\u52A0\u3057\u305F\u6642\u70B9\u3067\u65E2\u306B\u5927\u898F\u6A21\u306A\u30B5\u30FC\u30D3\u30B9\u3067\u3042\u308A\u3001\u305D\u308C\u3092\u652F\u3048\u3066\u3044\u308B\u30B3\u30FC\u30C9\u306B\u3075\u308C\u3089\u308C\u305F\u3053\u3068\u306F\u975E\u5E38\u306B\u8CB4\u91CD\u306A\u7D4C\u9A13\u3060\u3063\u305F\u3068\u601D\u3044\u307E\u3059\u3002"
+          })]
+        })]
+      })
+    })]
+  });
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Mamiya);
+
+/***/ }),
+
 /***/ "./resources/js/route.js":
 /*!*******************************!*\
   !*** ./resources/js/route.js ***!
@@ -12134,35 +12199,41 @@ function Ielove() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _pages_Ielove__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/Ielove */ "./resources/js/pages/Ielove.js");
-/* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/Home */ "./resources/js/pages/Home.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/Home */ "./resources/js/pages/Home.js");
+/* harmony import */ var _pages_Ielove__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/Ielove */ "./resources/js/pages/Ielove.js");
+/* harmony import */ var _pages_Mamiya__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/Mamiya */ "./resources/js/pages/Mamiya.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
-
-
+ // TOP
+ // いえらぶページ
+ // マミヤITSページ
 
 
 function App() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Switch, {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Route, {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Switch, {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, {
         path: "/",
         exact: true,
-        component: _pages_Home__WEBPACK_IMPORTED_MODULE_3__["default"]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_5__.Route, {
+        component: _pages_Home__WEBPACK_IMPORTED_MODULE_2__["default"]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, {
         path: "/ielove",
         exact: true,
-        component: _pages_Ielove__WEBPACK_IMPORTED_MODULE_2__["default"]
+        component: _pages_Ielove__WEBPACK_IMPORTED_MODULE_3__["default"]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Route, {
+        path: "/mamiya",
+        exact: true,
+        component: _pages_Mamiya__WEBPACK_IMPORTED_MODULE_4__["default"]
       })]
     })
   });
 }
-react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.BrowserRouter, {
-  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(App, {})
+react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.BrowserRouter, {
+  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(App, {})
 }), document.getElementById('app'));
 
 /***/ }),
