@@ -11860,10 +11860,10 @@ __webpack_require__.r(__webpack_exports__);
 
 {/* 個人開発アプリ */}
 var Output = function Output() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
     item: true,
     xs: 12,
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["default"], {
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["default"], {
         href: "https://martial-genryo.space",
         target: "_brank",
@@ -11878,11 +11878,39 @@ var Output = function Output() {
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], {
             variant: "body2",
             color: "text.secondary",
-            children: "\u683C\u95D8\u6280\u3067\u306F\u8A66\u5408\u306B\u51FA\u308B\u306B\u306F\u4F53\u91CD\u7BA1\u7406\u304C\u5FC5\u9808\u306B\u306A\u308A\u307E\u3059\u3002\u79C1\u81EA\u8EAB\u7D04\uFF12\u9031\u9593\u307B\u3069\u30675kg\u307B\u3069\u6E1B\u91CF\u3059\u308B\u305F\u3081\u3001\u4F53\u91CD\u7BA1\u7406\u306B\u82E6\u52B4\u3057\u3066\u3044\u307E\u3059\u3002\u4F53\u91CD\u3092\u7BA1\u7406\u3067\u304D\u308B\u30B5\u30FC\u30D3\u30B9\u306F\u591A\u6570\u3042\u308A\u307E\u3059\u304C\u30C0\u30A4\u30A8\u30C3\u30C8\u5411\u3051\u3067\u3059\u3002\u683C\u95D8\u6280\u5411\u3051\u306E\u30B5\u30FC\u30D3\u30B9\u304C\u6B32\u3057\u304F\u306A\u308A\u81EA\u4F5C\u3059\u308B\u3053\u3068\u306B\u3057\u307E\u3057\u305F\u3002"
+            children: "\u683C\u95D8\u6280\u3067\u306F\u8A66\u5408\u306B\u51FA\u308B\u306B\u306F\u4F53\u91CD\u7BA1\u7406\u304C\u5FC5\u9808\u306B\u306A\u308A\u307E\u3059\u3002\u79C1\u81EA\u8EAB\u7D042\u9031\u9593\u307B\u3069\u30675kg\u307B\u3069\u6E1B\u91CF\u3059\u308B\u305F\u3081\u3001\u4F53\u91CD\u7BA1\u7406\u306B\u82E6\u52B4\u3057\u3066\u3044\u307E\u3059\u3002\u4F53\u91CD\u3092\u7BA1\u7406\u3067\u304D\u308B\u30B5\u30FC\u30D3\u30B9\u306F\u591A\u6570\u3042\u308A\u307E\u3059\u304C\u30C0\u30A4\u30A8\u30C3\u30C8\u5411\u3051\u3067\u3059\u3002\u683C\u95D8\u6280\u5411\u3051\u306E\u30B5\u30FC\u30D3\u30B9\u304C\u6B32\u3057\u304F\u306A\u308A\u81EA\u4F5C\u3059\u308B\u3053\u3068\u306B\u3057\u307E\u3057\u305F\u3002"
           })]
         })]
       })
-    })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        href: "https://github.com/ryosuke-horie/gas-codes",
+        target: "_brank",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          title: "GAS\u3067\u4F5C\u6210\u3057\u305F\u30B3\u30FC\u30C9\u96C6"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_6__["default"], {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], {
+            gutterBottom: true,
+            variant: "h5",
+            component: "div",
+            children: "1.Gas\u3067Qiita\u30C8\u30EC\u30F3\u30C9\u81EA\u52D5\u53D6\u5F97"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], {
+            variant: "body2",
+            color: "text.secondary",
+            children: "\u6280\u8853\u8A18\u4E8B\u3092\u8AAD\u3080\u6A5F\u4F1A\u3092\u5C11\u3057\u3067\u3082\u5897\u3084\u305D\u3046\u3068\u601D\u3044\u3001GAS\u3092\u4F7F\u7528\u3057\u3066\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], {
+            gutterBottom: true,
+            variant: "h5",
+            component: "div",
+            children: "2.\u6771\u4EAC\u306E\u5929\u6C17\u3092LINE\u3067\u901A\u77E5"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], {
+            variant: "body2",
+            color: "text.secondary",
+            children: "GAS\u3084API\u306E\u5229\u7528\u306E\u7DF4\u7FD2\u3067\u4F5C\u6210\u3057\u307E\u3057\u305F\u3002"
+          })]
+        })]
+      })
+    })]
   });
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Output);
