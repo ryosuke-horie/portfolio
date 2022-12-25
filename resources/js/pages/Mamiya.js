@@ -10,20 +10,20 @@ function Mamiya() {
             <Grid item xs={12}>
                 <Card>
                     <CardHeader
-                        title="不動産仲介会社向け業務支援SaaS「いえらぶ」の保守・運用"
+                        title="アミューズメント業界向け業務効率化システムの開発"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="body2" color="text.secondary">
-                            期間：2020/12 ~ 2021/7
+                            期間：2022/7 ~ 現在就業中
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            AWS | PHP/ZendFrameWork | Javascript/JQuery | SQL/Mysql | css
+                            PHP/Laravel | Postgresql | AWS | Javascript | CSS
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            業務内容：保守・運用業務に従事。報告されているバグの修正対応がメインでした。また、新規機能の実装にも対応していました。
+                            
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            未経験だったこともあり、この時期は簡単なバグの修正対応がメインでした。参加した時点で既に大規模なサービスであり、それを支えているコードにふれられたことは非常に貴重な経験だったと思います。    
+                                
                         </Typography>
                     </CardContent>
                 </Card>

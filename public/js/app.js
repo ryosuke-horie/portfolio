@@ -12160,25 +12160,23 @@ function Mamiya() {
       xs: 12,
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_6__["default"], {
-          title: "\u4E0D\u52D5\u7523\u4EF2\u4ECB\u4F1A\u793E\u5411\u3051\u696D\u52D9\u652F\u63F4SaaS\u300C\u3044\u3048\u3089\u3076\u300D\u306E\u4FDD\u5B88\u30FB\u904B\u7528"
+          title: "\u30A2\u30DF\u30E5\u30FC\u30BA\u30E1\u30F3\u30C8\u696D\u754C\u5411\u3051\u696D\u52D9\u52B9\u7387\u5316\u30B7\u30B9\u30C6\u30E0\u306E\u958B\u767A"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_8__["default"], {
             gutterBottom: true,
             variant: "body2",
             color: "text.secondary",
-            children: "\u671F\u9593\uFF1A2020/12 ~ 2021/7"
+            children: "\u671F\u9593\uFF1A2022/7 ~ \u73FE\u5728\u5C31\u696D\u4E2D"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_8__["default"], {
             variant: "body2",
             color: "text.secondary",
-            children: "AWS | PHP/ZendFrameWork | Javascript/JQuery | SQL/Mysql | css"
+            children: "PHP/Laravel | Postgresql | AWS | Javascript | CSS"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_8__["default"], {
             variant: "body2",
-            color: "text.secondary",
-            children: "\u696D\u52D9\u5185\u5BB9\uFF1A\u4FDD\u5B88\u30FB\u904B\u7528\u696D\u52D9\u306B\u5F93\u4E8B\u3002\u5831\u544A\u3055\u308C\u3066\u3044\u308B\u30D0\u30B0\u306E\u4FEE\u6B63\u5BFE\u5FDC\u304C\u30E1\u30A4\u30F3\u3067\u3057\u305F\u3002\u307E\u305F\u3001\u65B0\u898F\u6A5F\u80FD\u306E\u5B9F\u88C5\u306B\u3082\u5BFE\u5FDC\u3057\u3066\u3044\u307E\u3057\u305F\u3002"
+            color: "text.secondary"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_8__["default"], {
             variant: "body2",
-            color: "text.secondary",
-            children: "\u672A\u7D4C\u9A13\u3060\u3063\u305F\u3053\u3068\u3082\u3042\u308A\u3001\u3053\u306E\u6642\u671F\u306F\u7C21\u5358\u306A\u30D0\u30B0\u306E\u4FEE\u6B63\u5BFE\u5FDC\u304C\u30E1\u30A4\u30F3\u3067\u3057\u305F\u3002\u53C2\u52A0\u3057\u305F\u6642\u70B9\u3067\u65E2\u306B\u5927\u898F\u6A21\u306A\u30B5\u30FC\u30D3\u30B9\u3067\u3042\u308A\u3001\u305D\u308C\u3092\u652F\u3048\u3066\u3044\u308B\u30B3\u30FC\u30C9\u306B\u3075\u308C\u3089\u308C\u305F\u3053\u3068\u306F\u975E\u5E38\u306B\u8CB4\u91CD\u306A\u7D4C\u9A13\u3060\u3063\u305F\u3068\u601D\u3044\u307E\u3059\u3002"
+            color: "text.secondary"
           })]
         })]
       })
