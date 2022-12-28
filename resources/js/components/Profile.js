@@ -7,7 +7,7 @@ const Profile = () => {
         <Grid item xs={12}>
           <Card>
             <CardHeader
-              avatar={<Avatar>P</Avatar>}
+              avatar={<Avatar alt="myPhoto" src="/image/myPhoto.jpeg" />}
               title="堀江 遼佑"
               subheader="バックエンドエンジニア"
             />

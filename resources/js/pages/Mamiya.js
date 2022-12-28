@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { Card, CardHeader, CardContent, Grid, Typography } from "@material-ui/core";
 import Header from '../components/Header'; {/* ヘッダー */}
 
+// マミヤITSのページ(記述途中)【記載するときには書いた内容が問題ないものか気を使うこと】
 function Mamiya() {
     return (
         <Grid container spacing={3}>
@@ -20,10 +21,7 @@ function Mamiya() {
                             PHP/Laravel | Postgresql | AWS | Javascript | CSS
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            
-                        </Typography>
-                        <Typography variant="body2" color="text.secondary">
-                                
+                            {/* 未記入 */}
                         </Typography>
                     </CardContent>
                 </Card>

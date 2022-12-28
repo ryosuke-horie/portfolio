@@ -11945,7 +11945,8 @@ var Profile = function Profile() {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["default"], {
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["default"], {
         avatar: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
-          children: "P"
+          alt: "myPhoto",
+          src: "/image/myPhoto.jpeg"
         }),
         title: "\u5800\u6C5F \u907C\u4F51",
         subheader: "\u30D0\u30C3\u30AF\u30A8\u30F3\u30C9\u30A8\u30F3\u30B8\u30CB\u30A2"
@@ -12052,7 +12053,7 @@ function Home() {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
       container: true,
       spacing: 3,
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Profile__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Company__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Output__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Languages__WEBPACK_IMPORTED_MODULE_5__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_WakaTime__WEBPACK_IMPORTED_MODULE_6__["default"], {})]
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {}), "    ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Profile__WEBPACK_IMPORTED_MODULE_2__["default"], {}), "   ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Company__WEBPACK_IMPORTED_MODULE_3__["default"], {}), "   ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Output__WEBPACK_IMPORTED_MODULE_4__["default"], {}), "    ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Languages__WEBPACK_IMPORTED_MODULE_5__["default"], {}), " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_WakaTime__WEBPACK_IMPORTED_MODULE_6__["default"], {}), "  "]
     })
   });
 }
@@ -12096,7 +12097,7 @@ function Ielove() {
       xs: 12,
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_6__["default"], {
-          title: "\u4E0D\u52D5\u7523\u4EF2\u4ECB\u4F1A\u793E\u5411\u3051\u696D\u52D9\u652F\u63F4SaaS\u300C\u3044\u3048\u3089\u3076\u300D\u306E\u4FDD\u5B88\u30FB\u904B\u7528"
+          title: "\u4E0D\u52D5\u7523\u4EF2\u4ECB\u4F1A\u793E\u5411\u3051\u696D\u52D9\u652F\u63F4SaaS\u300C\u3044\u3048\u3089\u3076CLOUD\u300D\u306E\u4FDD\u5B88\u30FB\u904B\u7528"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_8__["default"], {
             gutterBottom: true,
@@ -12123,7 +12124,7 @@ function Ielove() {
       xs: 12,
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_6__["default"], {
-          title: "\u300C\u3044\u3048\u3089\u3076\u300D\u3068\u9023\u643A\u3057\u305F\u4E0D\u52D5\u7523\u4F1A\u793E\u5411\u3051HP\u306E\u958B\u767A"
+          title: "\u300C\u3044\u3048\u3089\u3076CLOUD\u300D\u3068\u9023\u643A\u3057\u305F\u4E0D\u52D5\u7523\u4F1A\u793E\u5411\u3051HP\u306E\u958B\u767A"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_8__["default"], {
             gutterBottom: true,
@@ -12179,6 +12180,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 {/* ヘッダー */}
+
+// マミヤITSのページ(記述途中)【記載するときには書いた内容が問題ないものか気を使うこと】
 function Mamiya() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["default"], {
     container: true,
@@ -12199,9 +12202,6 @@ function Mamiya() {
             variant: "body2",
             color: "text.secondary",
             children: "PHP/Laravel | Postgresql | AWS | Javascript | CSS"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_8__["default"], {
-            variant: "body2",
-            color: "text.secondary"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_8__["default"], {
             variant: "body2",
             color: "text.secondary"

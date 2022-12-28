@@ -10,7 +10,7 @@ function Ielove() {
             <Grid item xs={12}>
                 <Card>
                     <CardHeader
-                        title="不動産仲介会社向け業務支援SaaS「いえらぶ」の保守・運用"
+                        title="不動産仲介会社向け業務支援SaaS「いえらぶCLOUD」の保守・運用"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="body2" color="text.secondary">
@@ -32,7 +32,7 @@ function Ielove() {
             <Grid item xs={12}>
                 <Card>
                     <CardHeader
-                        title="「いえらぶ」と連携した不動産会社向けHPの開発"
+                        title="「いえらぶCLOUD」と連携した不動産会社向けHPの開発"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="body2" color="text.secondary">
