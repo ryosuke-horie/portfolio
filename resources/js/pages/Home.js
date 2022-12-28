@@ -13,12 +13,12 @@ function Home() {
   return (
     <div>
       <Grid container spacing={3}>
-        <Header />
-        <Profile />
-        <Company />
-        <Output />
-        <Languages />
-        <WakaTime />
+        <Header />    {/* ヘッダー */}
+        <Profile />   {/* プロフィール */}
+        <Company />   {/* 業務経歴 */}
+        <Output />    {/* 個人開発アプリ */}
+        <Languages /> {/* プログラミング言語 */}
+        <WakaTime />  {/* WakaTime API */}
       </Grid>
     </div>
   );
