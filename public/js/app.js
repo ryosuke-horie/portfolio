@@ -11697,12 +11697,16 @@ var Company = function Company(props) {
   var career = [{
     key: "1",
     company: "株式会社いえらぶGROUP",
-    content: "不動産会社向けSaaSサービスの開発に従事。主にPHP/Zendframeworkを使用して月間売上１億円超えのサービスの開発を行っていました。",
+    content: "不動産会社向けSaaSサービスの開発に従事。月間売上１億円超えのサービスの開発を行っていました。",
+    env: "HTML | CSS | JavaScript/jQuery | PHP 8.1/ZendFramework | MySql | AWS",
+    tool: "Slack | Backlog",
     url: "/ielove"
   }, {
     key: "2",
     company: "マミヤITソリューションズ株式会社",
     content: "グループ会社の業務改善ツールの開発をメインに担当。主にPHP/Laravelを使用して開発。",
+    env: "HTML | CSS | JavaScript/jQuery | PHP 8.1/Laravel 8・CakePHP 2 | MySql・Postgresql | AWS・オンプレミス",
+    tool: "Mattermost | Redmine",
     url: "/mamiya"
   }];
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
@@ -11725,6 +11729,14 @@ var Company = function Company(props) {
                 variant: "body2",
                 color: "text.secondary",
                 children: row['content']
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                variant: "body2",
+                color: "text.secondary",
+                children: ["\u958B\u767A\u74B0\u5883\uFF1A", row['env']]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_7__["default"], {
+                variant: "body2",
+                color: "text.secondary",
+                children: ["\u30C4\u30FC\u30EB", row['tool']]
               })]
             })]
           })
