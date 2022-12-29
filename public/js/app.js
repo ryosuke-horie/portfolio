@@ -11777,6 +11777,50 @@ function Header() {
 
 /***/ }),
 
+/***/ "./resources/js/components/JobSamary.js":
+/*!**********************************************!*\
+  !*** ./resources/js/components/JobSamary.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/Grid/Grid.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/Card/Card.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/CardHeader/CardHeader.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/CardContent/CardContent.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/Typography/Typography.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+{/* 職務概要 */}
+var JobSamary = function JobSamary() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    item: true,
+    xs: 12,
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        title: "\u8077\u52D9\u6982\u8981"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_6__["default"], {
+          variant: "body2",
+          color: "text.secondary",
+          children: "\u5927\u5B66\u5728\u5B66\u4E2D\u304B\u3089\u30A8\u30F3\u30B8\u30CB\u30A2\u30A4\u30F3\u30BF\u30FC\u30F3\u30B7\u30C3\u30D7\u3092\u521D\u3081\u3001\u5927\u5B66\u5352\u696D\u5F8C\u4E0D\u52D5\u7523\u696D\u754C\u5411\u3051SaaS\u30B5\u30FC\u30D3\u30B9\u306E\u958B\u767A\u306B\u643A\u308F\u308B\u3002 \uFF11\u793E\u76EE\u3067\u306F\u672A\u7D4C\u9A13\u306A\u304C\u3089\uFF11\u5104\u5186\u898F\u6A21\u306EHP\u958B\u767A\u306E\u30D0\u30C3\u30AF\u30A8\u30F3\u30C9\u5074\u306E\u958B\u767A\u3092\u62C5\u5F53\u3002\u7D04\uFF11\u5E74\u534A\u306E\u958B\u767A\u7D4C\u9A13\u3092\u7A4D\u3093\u3060\u5F8C\u30DE\u30DF\u30E4IT\u30BD\u30EA\u30E5\u30FC\u30B7\u30E7\u30F3\u30BA\u682A\u5F0F\u4F1A\u793E\u306B\u5165\u793E\u3002 \u65E2\u5B58\u30B5\u30FC\u30D3\u30B9\u306E\u4FDD\u5B88\u904B\u7528\u3084\u30EA\u30D7\u30EC\u30A4\u30B9\u6848\u4EF6\u3001\u65B0\u898F\u4E8B\u696D\u306E\u6280\u8853\u9078\u629E\u3084\u8A2D\u8A08\u3092\u62C5\u5F53\u3002"
+        })
+      })]
+    })
+  });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (JobSamary);
+
+/***/ }),
+
 /***/ "./resources/js/components/Languages.js":
 /*!**********************************************!*\
   !*** ./resources/js/components/Languages.js ***!
@@ -12023,14 +12067,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core/Grid */ "./node_modules/@material-ui/core/esm/Grid/Grid.js");
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/core/Grid */ "./node_modules/@material-ui/core/esm/Grid/Grid.js");
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Header */ "./resources/js/components/Header.js");
 /* harmony import */ var _components_Profile__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Profile */ "./resources/js/components/Profile.js");
-/* harmony import */ var _components_Company__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Company */ "./resources/js/components/Company.js");
-/* harmony import */ var _components_Output__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Output */ "./resources/js/components/Output.js");
-/* harmony import */ var _components_Languages__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Languages */ "./resources/js/components/Languages.js");
-/* harmony import */ var _components_WakaTime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/WakaTime */ "./resources/js/components/WakaTime.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _components_JobSamary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/JobSamary */ "./resources/js/components/JobSamary.js");
+/* harmony import */ var _components_Company__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Company */ "./resources/js/components/Company.js");
+/* harmony import */ var _components_Output__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Output */ "./resources/js/components/Output.js");
+/* harmony import */ var _components_Languages__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Languages */ "./resources/js/components/Languages.js");
+/* harmony import */ var _components_WakaTime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/WakaTime */ "./resources/js/components/WakaTime.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
@@ -12038,6 +12083,8 @@ __webpack_require__.r(__webpack_exports__);
 {/* ヘッダー */}
 
 {/* プロフィール */}
+
+{/* 職務概要 */}
 
 {/* 業務経歴 */}
 
@@ -12049,11 +12096,11 @@ __webpack_require__.r(__webpack_exports__);
 
 {/* WakaTime API */}
 function Home() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_9__["default"], {
       container: true,
       spacing: 3,
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {}), "    ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Profile__WEBPACK_IMPORTED_MODULE_2__["default"], {}), "   ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Company__WEBPACK_IMPORTED_MODULE_3__["default"], {}), "   ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Output__WEBPACK_IMPORTED_MODULE_4__["default"], {}), "    ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Languages__WEBPACK_IMPORTED_MODULE_5__["default"], {}), " ", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_WakaTime__WEBPACK_IMPORTED_MODULE_6__["default"], {}), "  "]
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Profile__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_JobSamary__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Company__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Output__WEBPACK_IMPORTED_MODULE_5__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Languages__WEBPACK_IMPORTED_MODULE_6__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_WakaTime__WEBPACK_IMPORTED_MODULE_7__["default"], {})]
     })
   });
 }
